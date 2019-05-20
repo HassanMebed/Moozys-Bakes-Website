@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+* 
+{
+	margin: 0px;
+	padding: 0px;
+}
+#mainReg
+{
+	width: 40%;
+	margin: 15px auto 0px;
+	color: #FFFAF0;
+	background: #FF69B4;
+	text-align: center;
+	border: 1px solid #FF69B4;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form
+{
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #FF69B4;
+	background: #FFFAF0;
+	border-radius: 0px 0px 10px 10px;
+}
+#userInfo
+{
+	margin: 10px 0px 10px 0px;
+}
+#userInfo label
+{
+	display: block;
+	text-align: left;
+	margin: 3px
+}
+#userInfo input
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #FF69B4;
+}
+#btn
+{
+	padding: 10px;
+	font-size: 15px;
+	color: #FFFAF0;
+	background: #FF69B4;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+	<div id="mainReg">	
+		<h2>Sign Up</h2>	
+	</div>
+
+	<form method="post" action="signup.php">
+		<div id="userInfo">
+			<label>First Name*</label>
+			<input type="text" name="firstname">			
+		</div>
+		<div id="userInfo">
+			<label>Last Name*</label>
+			<input type="text" name="lastname">			
+		</div>
+		<div id="userInfo">
+			<label>Email*</label>
+			<input type="text" name="email">			
+		</div>
+		<div id="userInfo">
+			<label>Password*</label>
+			<input type="password" name="userpassword">			
+		</div>
+		<div id="userInfo">
+			<label>Telephone/Mobile*</label>
+			<input type="text" name="telephone">			
+		</div>
+		<div id="userInfo">
+			<label>Street Address*</label>
+			<input type="text" name="street">			
+		</div>
+		<div id="userInfo">
+			<label>House Number*</label>
+			<input type="text" name="house">			
+		</div>
+		<div id="userInfo">
+			<label>Area Name*</label>
+			<input type="text" name="area">			
+		</div>
+		<div id="userInfo">
+			<label>ZIP Code</label>
+			<input type="text" name="zipcode">			
+		</div>
+		<div id="userInfo">
+			<button type="submit" name="signup" id="btn">Submit</button>			
+		</div>
+		<p>
+			Already a member? <a href="login_page.php">Login</a>
+		</p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administrator Section"
+AuthUserFile ../htdocs/Moozys_Bakes/admin/.htpasswd
+Require valid-user

@@ -1,8 +1,8 @@
 # Moozys-Bakes-Website
 ********************************************************************
-*- Simple website that demonstrates usage of MySQL relational database.
- - Main focus is on back-end.
-*- Does not include the content of the "products & catering services"
+- Simple website that demonstrates usage of MySQL relational database.
+- Main focus is on back-end.
+- Does not include the content of the "products & catering services"
    and "contact" pages.
 ********************************************************************
 

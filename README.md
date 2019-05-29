@@ -1,10 +1,10 @@
 # Moozys-Bakes-Website
-********************************************************************
-- Simple website that demonstrates usage of MySQL relational database.
+*********************************************************************************************************************
+- Simple website that demonstrates integration of front-end HTML and JavaScript with back-end PHP and MySQL database.
 - Main focus is on back-end.
 - Does not include the content of the "products & catering services"
-   and "contact" pages.
-********************************************************************
+  and "contact" pages.
+*********************************************************************************************************************
 
 // Moozys_Bakes //
 Folder that contains source files that make up the website.
